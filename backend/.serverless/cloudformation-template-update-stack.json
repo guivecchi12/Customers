@@ -176,7 +176,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/the-nice-project/dev/1612929423610-2021-02-10T03:57:03.610Z/the-nice-project.zip"
+          "S3Key": "serverless/the-nice-project/dev/1613520214149-2021-02-17T00:03:34.149Z/the-nice-project.zip"
         },
         "FunctionName": "the-nice-project-dev-create",
         "Handler": "customer/create.handler",
@@ -199,14 +199,14 @@
         "CreateLogGroup"
       ]
     },
-    "CreateLambdaVersionD9F57obNa9WtHo1YK5OjcvsAgsoTqpLg0nuiuQnOlA": {
+    "CreateLambdaVersion6PMIJGYfsGE0PnWFzWiDCUAvzH1HS2LTOdiBM6UMQ": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateLambdaFunction"
         },
-        "CodeSha256": "G9R4aouNCgD+tSO8YHkjIm8YQJCE+zBk9muNu4n+8Ck="
+        "CodeSha256": "vkz+qao6PJ+vNOU+hVOTIV4ZXVQFDnjUKRmZH3KLukQ="
       }
     },
     "ListLambdaFunction": {
@@ -216,7 +216,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/the-nice-project/dev/1612929423610-2021-02-10T03:57:03.610Z/the-nice-project.zip"
+          "S3Key": "serverless/the-nice-project/dev/1613520214149-2021-02-17T00:03:34.149Z/the-nice-project.zip"
         },
         "FunctionName": "the-nice-project-dev-list",
         "Handler": "customer/list.handler",
@@ -239,14 +239,14 @@
         "ListLogGroup"
       ]
     },
-    "ListLambdaVersionJbmrGp2KfLdXp0WOvNup2fdASUWhkHuXyBF6yKreHU": {
+    "ListLambdaVersionGgLCwhuJL7tl9JrqvWpqnjEe97UiWQwJRSh2c04KBOU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ListLambdaFunction"
         },
-        "CodeSha256": "G9R4aouNCgD+tSO8YHkjIm8YQJCE+zBk9muNu4n+8Ck="
+        "CodeSha256": "vkz+qao6PJ+vNOU+hVOTIV4ZXVQFDnjUKRmZH3KLukQ="
       }
     },
     "GetLambdaFunction": {
@@ -256,7 +256,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/the-nice-project/dev/1612929423610-2021-02-10T03:57:03.610Z/the-nice-project.zip"
+          "S3Key": "serverless/the-nice-project/dev/1613520214149-2021-02-17T00:03:34.149Z/the-nice-project.zip"
         },
         "FunctionName": "the-nice-project-dev-get",
         "Handler": "customer/get.handler",
@@ -279,14 +279,14 @@
         "GetLogGroup"
       ]
     },
-    "GetLambdaVersioneC3LVn9T9tOAI3y7DeFKgatwnM1jDw5LRtZJn1D0": {
+    "GetLambdaVersionCQAYZWT7uMGc87oaT5HYrsIxqag6xyKGGB19TgPGcpc": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetLambdaFunction"
         },
-        "CodeSha256": "G9R4aouNCgD+tSO8YHkjIm8YQJCE+zBk9muNu4n+8Ck="
+        "CodeSha256": "vkz+qao6PJ+vNOU+hVOTIV4ZXVQFDnjUKRmZH3KLukQ="
       }
     },
     "UpdateLambdaFunction": {
@@ -296,7 +296,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/the-nice-project/dev/1612929423610-2021-02-10T03:57:03.610Z/the-nice-project.zip"
+          "S3Key": "serverless/the-nice-project/dev/1613520214149-2021-02-17T00:03:34.149Z/the-nice-project.zip"
         },
         "FunctionName": "the-nice-project-dev-update",
         "Handler": "customer/update.handler",
@@ -319,14 +319,14 @@
         "UpdateLogGroup"
       ]
     },
-    "UpdateLambdaVersionxwhJa312f56y1KXy1tQpWhVoXfNhHTLR3Tvp7d63ZA": {
+    "UpdateLambdaVersionxFGw8PCpNM4eICPFn3xQ821EMS1BtuubrIXNNku4": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateLambdaFunction"
         },
-        "CodeSha256": "G9R4aouNCgD+tSO8YHkjIm8YQJCE+zBk9muNu4n+8Ck="
+        "CodeSha256": "vkz+qao6PJ+vNOU+hVOTIV4ZXVQFDnjUKRmZH3KLukQ="
       }
     },
     "ApiGatewayRestApi": {
@@ -630,7 +630,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1612929388134": {
+    "ApiGatewayDeployment1613520179005": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -828,25 +828,25 @@
     "CreateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateLambdaVersionD9F57obNa9WtHo1YK5OjcvsAgsoTqpLg0nuiuQnOlA"
+        "Ref": "CreateLambdaVersion6PMIJGYfsGE0PnWFzWiDCUAvzH1HS2LTOdiBM6UMQ"
       }
     },
     "ListLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ListLambdaVersionJbmrGp2KfLdXp0WOvNup2fdASUWhkHuXyBF6yKreHU"
+        "Ref": "ListLambdaVersionGgLCwhuJL7tl9JrqvWpqnjEe97UiWQwJRSh2c04KBOU"
       }
     },
     "GetLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetLambdaVersioneC3LVn9T9tOAI3y7DeFKgatwnM1jDw5LRtZJn1D0"
+        "Ref": "GetLambdaVersionCQAYZWT7uMGc87oaT5HYrsIxqag6xyKGGB19TgPGcpc"
       }
     },
     "UpdateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateLambdaVersionxwhJa312f56y1KXy1tQpWhVoXfNhHTLR3Tvp7d63ZA"
+        "Ref": "UpdateLambdaVersionxFGw8PCpNM4eICPFn3xQ821EMS1BtuubrIXNNku4"
       }
     },
     "ServiceEndpoint": {
